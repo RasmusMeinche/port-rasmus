@@ -751,17 +751,23 @@ top: -1.4%;
 
 /* projekter */
 
+.overskrift {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #009F00;
+  margin-top: 20px;
+}
+
 section {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   height: 100svh;
   width: 80%;
-  gap: 10px;
+  gap: 15px;
   margin: 0 auto;
-
-
 
   > div {
     border: 3px solid #009F00;
@@ -771,15 +777,36 @@ section {
     padding: 20px;
   }
 
+  div :nth-child(2) {
+    margin-top: 30px;
+  }
+
+  div :nth-child(3) {
+    margin-top: 10px;
+    font-size: ;
+  }
+
   h1 {
     text-align: center;
-    
   }
 
   img {
     object-fit: contain;
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    place-self: center;
+  }
 
-    width: 50%;
+  a {
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    color: #ddd;
+    background-color: #009F00;
+    padding: 3px;
+    width: fit-content;
+    margin: 20px auto;
   }
 }
 
