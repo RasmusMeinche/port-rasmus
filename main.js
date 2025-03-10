@@ -51,7 +51,7 @@ document.getElementById("back-button")?.addEventListener("click", () => {
   sessionStorage.setItem("returningFromPage", "true");
 
   // Send brugeren tilbage til index.html
-  window.location.href = "/index.html";
+  window.location.href = "index.html";
 });
 
 /* Reset */
