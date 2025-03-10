@@ -748,3 +748,38 @@ top: -1.4%;
   color: #ffffff;
   box-shadow: rgba(46, 240, 78, 0.568) 0px 5px, rgba(46, 240, 78, 0.568) 0px 10px, rgba(46, 240, 127, 0.2) 0px 15px, rgba(46, 240, 120, 0.1) 0px 20px, rgba(46, 240, 111, 0.05) 0px 25px;
 }
+
+/* projekter */
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  height: 100svh;
+  width: 80%;
+  gap: 10px;
+  margin: 0 auto;
+
+
+
+  > div {
+    border: 3px solid #009F00;
+    display: grid;
+    place-content: center;
+    color: #009F00;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    
+  }
+
+  img {
+    object-fit: contain;
+
+    width: 50%;
+  }
+}
+
